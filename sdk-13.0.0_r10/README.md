@@ -20,7 +20,7 @@ https://source.android.com/docs/setup/create/gsi#building-gsis
 
 You need to pull a different source tree.
 
-For the most up-to-date android 13, the branch to use is "android13-gsi".
+For the most up-to-date Android 13, the branch to use is "android13-gsi".
 
 I have tested building it with the same build environent like for the sdk, and
 it works without any issues!
@@ -29,7 +29,7 @@ it works without any issues!
 Notes
 -----
 
-- simultaneous builds of win and linux sdk may fail. Default is linux only. If desired, edit build.sh and change the settings.
+- simultaneous builds of Windows and linux sdk may fail. Default is linux only. If desired, edit build.sh and change the settings.
 - the build.sh differs significantly to previous versions, because building 
 conscrypt will run in multiple issues and result in (unrecoverable) errors unless 
 some additional modules are built from source.
@@ -54,5 +54,8 @@ Build receipe
 When the build finishes sucessfully, you get a list of the important generated sdk files.
 
 Have fun!
+
+Footnote
+--------
 
 Microsoft Windows is a trademark of the Microsoft group of companies. Android is a trademark of Google LLC.

@@ -60,4 +60,7 @@ When the build finishes sucessfully, you get a list of the important generated s
 
 Have fun! 
 
+Footnote
+--------
+
 Microsoft Windows is a trademark of the Microsoft group of companies. Android is a trademark of Google LLC.
