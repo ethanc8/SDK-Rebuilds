@@ -20,7 +20,7 @@ Rebuild Android(tm) SDK from source
 Notice for Android 13
 ---------------------
 
-The recipe for Android 13 (api 33) builds the sdk but does NOT build a system image; but don't worry and read the Readme.md inside that folder for how to build a system image for Android 13.
+The receipe for Android 13 (api 33) builds the sdk but does NOT build a system image; but don't worry and read the Readme.md inside that folder for how to build a system image for Android 13.
 
 
 Prerequisites
@@ -32,7 +32,7 @@ I monitored the builds and they used up to 26 GB of RAM. Therefore, I recommend 
 
 You should build on a (virtual) machine running either Ubuntu 22.04.1 LTS or Linux Mint 21. 
 
-You have to download approx. 100 GB of source code, and the 1st build usually take a couple of hours, depending on your machine. So take your time and consider to grab a coffee.
+You have to download approx. 100 GB of source code, and the 1st build usually take a couple of hours, depending on your machine. So take your time and consider to grab a coffee in the meantime.
 
 How to build
 ============
