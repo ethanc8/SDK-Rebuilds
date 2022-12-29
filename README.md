@@ -1,25 +1,21 @@
-# Android-SDK-Rebuilds
+# SDK-Rebuilds
 
 Rebuild Android(tm) SDK from source
 ===================================
 
-You can build all SDKs up to Android 10 (api level 29) from the build scripts found (there)[https://gitlab.com/android-rebuilds/auto]. 
+- You can build all SDKs up to Android 10 (api level 29) from the build scripts found [here]()https://gitlab.com/android-rebuilds/auto). For Android 12 (api 31), 12L (api 32) and 13 (api 33) you can use the build scripts from this repository. For Android 11 (api 30), the build-receipe should be very similiar (if not identical) to Android 12 (api 31), but this was not tested.
 
-For Android 12 (api 31), 12L (api 32) and 13 (api 33) you can use the build scripts from here. 
+- For the sake of simplicity, the build recipes here *do **not** use docker*. 
 
-For Android 11 (api 30), the build-receipe should be very similiar (if not identical) to Android 12 (api 31), but this was not tested.
+- All scripts have been written from scratch and support a build-chain on a modern, up-to-date OS (Ubuntu 22.04.1 LTS and Linux Mint 21).
 
-For the sake of simplicity, the build recipes here *do **not** use docker*. 
+- If you do not want to mess up your main production machine, use a VM. 
 
-All scripts have been written from scratch and support a build-chain on a modern, up-to-date OS (Ubuntu 22.04.1 LTS and Linux Mint 21).
+- This repository includes the build receipes in the corresponding folders.
 
-If you do not want to mess up your main production machine, use a VM. 
+- The build scripts have been tested on Ubuntu 22.04.1 LTS and Linux Mint 21.
 
-This repository includes the build receipes in the corresponding folders.
-
-The build scripts have been tested on Ubuntu 22.04.1 LTS and Linux Mint 21.
-
-The sdk for Windows was **not** tested for all versions/revisions, but only for some of them, but it *should* work.
+- The sdk for Windows was **not** tested for all versions/revisions, but only for some of them, but it *should* work.
 
 Notice for Android 13
 ---------------------
@@ -48,7 +44,7 @@ sudo apt install git
 Install repo tool:
 sudo apt install repo
 
-Should your distro not have it, you can get the repo tool from (here)[https://android.googlesource.com/tools/repo]. It is a single script file, so no compiling is necessary. It needs the python-is-python3 symlink package installed to work, *or* a manually set symlink from 'python' to 'python3'.
+Should your distro not have it, you can get the repo tool from [here](https://android.googlesource.com/tools/repo). It is a single script file, so no compiling is necessary. It needs the python-is-python3 symlink package installed to work, *or* a manually set symlink from 'python' to 'python3'.
 
 Clone **this** repository locally:
 git clone https://codeberg.org/Starfish/Android-SDK-Rebuilds
