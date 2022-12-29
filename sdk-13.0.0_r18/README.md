@@ -48,15 +48,15 @@ Make all the .sh scripts in this directory executable:
 
     chmod +x *.sh
 
-1) Install dependencies (you will be asked for root password to install packages):
+Install dependencies (you will be asked for root password to install packages):
 
     ./dependencies.sh
 
-2) Download the source code:
+Download the source code:
 
     ./download.sh
 
-3) Compile the sdk:
+Compile the sdk:
 
     ./build.sh
 
