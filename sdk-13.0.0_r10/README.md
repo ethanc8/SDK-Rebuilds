@@ -3,8 +3,8 @@ VERSION='13.0.0_r10'
 
 IMPORTANT
 ---------
-The SDK 33 (android version 13), contrary to previous versions, does NOT include
-an system image anymore. 
+The Android(tm) 13 sdk (api level 33), contrary to previous versions, does NOT include
+a system image anymore. 
 
 You will notice a significantly reduced source tree, a smaller output sdk-zip-file 
 and will experience a much shorter build time. This is, because the build receipe
@@ -41,16 +41,18 @@ Build receipe
 
 1) Install dependencies (you will be asked for root password to install packages):
 
-./dependencies.sh
+    ./dependencies.sh
 
 2) Download the source code:
 
-./download.sh
+    ./download.sh
 
 3) Compile the sdk:
 
-./build.sh
+    ./build.sh
 
 When the build finishes sucessfully, you get a list of the important generated sdk files.
 
 Have fun!
+
+Microsoft Windows is a trademark of the Microsoft group of companies. Android is a trademark of Google LLC.

@@ -8,8 +8,8 @@ The build receipe is identical to 12.0.0_r10, only the VERSION is different.
 
 IMPORTANT
 ---------
-The SDK 33 (android version 13), contrary to previous versions, does NOT include
-an system image anymore. 
+
+The Android(tm) 13 sdk (api level 33), contrary to previous versions, does NOT include a system image anymore. 
 
 You will notice a significantly reduced source tree, a smaller output sdk-zip-file 
 and will experience a much shorter build time. This is, because the build receipe
@@ -25,7 +25,7 @@ https://source.android.com/docs/setup/create/gsi#building-gsis
 
 You need to pull a different source tree.
 
-For the most up-to-date android 13, the branch to use is "android13-gsi".
+For the most up-to-date Android 13, the branch to use is "android13-gsi".
 
 I have tested building it with the same build environent like for the sdk, and
 it works without any issues!
@@ -46,16 +46,18 @@ Build receipe
 
 1) Install dependencies (you will be asked for root password to install packages):
 
-./dependencies.sh
+    ./dependencies.sh
 
 2) Download the source code:
 
-./download.sh
+    ./download.sh
 
 3) Compile the sdk:
 
-./build.sh
+    ./build.sh
 
 When the build finishes sucessfully, you get a list of the important generated sdk files.
 
-Have fun!
+Have fun! 
+
+Microsoft Windows is a trademark of the Microsoft group of companies. Android is a trademark of Google LLC.
