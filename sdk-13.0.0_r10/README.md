@@ -39,6 +39,10 @@ All commands need to be executed from the sdk folder!
 Build receipe
 -------------
 
+Make all the .sh scripts in this directory executable:
+
+    chmod +x *.sh
+
 1) Install dependencies (you will be asked for root password to install packages):
 
     ./dependencies.sh

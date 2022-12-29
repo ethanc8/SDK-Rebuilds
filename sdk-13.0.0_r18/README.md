@@ -34,7 +34,7 @@ it works without any issues!
 Notes
 -----
 
-- simultaneous builds of win and linux sdk may fail. Default is linux only. If desired, edit build.sh and change the settings.
+- simultaneous builds of Windows and linux sdk may fail. Default is linux only. If desired, edit build.sh and change the settings.
 - the build.sh differs significantly to previous versions, because building 
 conscrypt will run in multiple issues and result in (unrecoverable) errors unless 
 some additional modules are built from source.
@@ -43,6 +43,10 @@ All commands need to be executed from the sdk folder!
 
 Build receipe
 -------------
+
+Make all the .sh scripts in this directory executable:
+
+    chmod +x *.sh
 
 1) Install dependencies (you will be asked for root password to install packages):
 
