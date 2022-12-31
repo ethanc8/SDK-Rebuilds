@@ -13,9 +13,11 @@ Rebuild Android(tm) SDK from source
 
 - This repository includes the build receipes in the corresponding folders.
 
-- The build scripts have been tested on Ubuntu 22.04.1 LTS and Linux Mint 21.
+- The build scripts have been tested on Ubuntu 22.04.1 LTS and Linux Mint 21. 
 
-- The sdk for Windows was **not** tested for all versions/revisions, but only for some of them, but it *should* work.
+- Currently, the build environment (packages necessary) is identical for Android 12 (api 31), 12L (api 32) and 13 (api 33). 
+
+- some of the scripts have built the Windows sdk files sucessfully, but this has not been tested for all the sdks. However, the other ones *should* built, too.
 
 Notice for Android 13
 ---------------------
