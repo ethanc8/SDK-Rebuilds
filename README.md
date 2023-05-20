@@ -28,7 +28,7 @@ The receipe for Android 13 (api 33) builds the sdk but does NOT build a system i
 Prerequisites
 =============
 
-You need approx. 300 MB of free disk space (100 MB for the source of each sdk version, and an other 200 MB for the build process and the output). 
+You need approx. 300 GB of free disk space (approx. 100 GB for the source of each sdk version, and an other 200 GB for the build process and the output). 
 
 I monitored the builds and they used up to 26 GB of RAM. Therefore, I recommend at least 32 GB of RAM. Lower specs might work, but are untested. It is commonly asserted that sdk builds fail when you have less than 16 GB of free RAM.
 
