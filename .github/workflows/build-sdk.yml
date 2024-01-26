@@ -11,8 +11,8 @@ jobs:
       - run: sudo mkdir -p /mnt/build-sdk-13_r18
       - run: sudo chmod a+rwx /mnt/build-sdk-13_r18
       - working-directory: /mnt/build-sdk-13_r18
-        run: bash ${{ github.workspace }}/dependencies.sh
+        run: bash ${{ github.workspace }}/sdk-13.0.0_r18/dependencies.sh
       - working-directory: /mnt/build-sdk-13_r18
-        run: bash ${{ github.workspace }}/download.sh
+        run: bash ${{ github.workspace }}/sdk-13.0.0_r18/download.sh
       - working-directory: /mnt/build-sdk-13_r18
-        run: bash ${{ github.workspace }}/build.sh
+        run: bash ${{ github.workspace }}/sdk-13.0.0_r18/build.sh
