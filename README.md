@@ -1,5 +1,27 @@
 # SDK-Rebuilds
 
+## Status
+
+### Buildable
+
+* Android SDK
+  * 12.0.0_r19
+  * 12.1.0_r27
+  * 13.0.0_r10
+  * 13.0.0_r18
+
+### Built releases
+
+(None yet)
+
+### Not yet buildable (with this project)
+
+* Android NDK
+* Android images
+* Android Emulator
+* Android Studio
+* Anything else?
+
 Rebuild Android(tm) SDK from source
 ===================================
 
