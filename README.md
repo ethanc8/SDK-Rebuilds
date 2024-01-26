@@ -16,6 +16,9 @@
 
 ### Not yet buildable (with this project)
 
+* Android SDK
+  * 13.0.0_r83
+  * 14.0.0_r21
 * Android NDK
 * Android images
 * Android Emulator
