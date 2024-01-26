@@ -1,0 +1,9 @@
+name: build-sdk
+run-name: Build SDK
+on: [push]
+jobs:
+  build-sdk-13.0.0_r18:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash sdk-13.0.0_r18/gh-actions-build.sh
