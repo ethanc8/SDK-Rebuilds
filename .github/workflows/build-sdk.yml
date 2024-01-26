@@ -7,6 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       # - run: bash sdk-13.0.0_r18/gh-actions-build.sh
+      - run: df -h
       - working-directory: sdk-13.0.0_r18
         run: bash dependencies.sh
       - working-directory: sdk-13.0.0_r18
