@@ -8,7 +8,8 @@ jobs:
       - uses: actions/checkout@v4
       # - run: bash sdk-13.0.0_r18/gh-actions-build.sh
       - run: df -h
-      - run: mkdir -p /mnt/build-sdk-13_r18
+      - run: sudo mkdir -p /mnt/build-sdk-13_r18
+      - run: sudo chmod a+rwx /mnt/build-sdk-13_r18
       - working-directory: /mnt/build-sdk-13_r18
         run: bash ${{ github.workspace }}/dependencies.sh
       - working-directory: /mnt/build-sdk-13_r18
